@@ -11,23 +11,78 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.example.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+      Style pode ser 
+      inline 
+      interno ou
+      externo
+
+      selector é o elemento que queremos estilizar
+      por tag = nome do elemento html
+ #     por id = identificador unico do html
+ .     por classe = identificador que pode ser usado
+      em mais de um elemento
+    -->
+      
 </head>
+<style>
+    a{ 
+        color: #ffffff;
+       text-decoration: none; 
+    }
+    ul{
+        display: flex;
+        gap: 13px;
+        list-style: none;
+    }
+    nav{
+        position: relative;
+        bottom: 10px;
+        background-color: #5d6cf0;
+        font-size: 23px ;
+        /* somente 1 posição = todos os lados 
+           somente 1 e 2 posição
+           1 = cima e baixo
+           2 = esquerda e direita 
+        */
+        
+        border: 4px #ad5af1 solid;
+        border-top: #ad5af1 4px solid;
+        border-bottom: #ad5af1 4px solid;
+        padding: 3px 5px 10px 20px;
+
+    }
+</style>
 <body>
-    <header>
+    <header style=
+                  "border: 1px solid #0274f5;
+                   background-color: #5f56b1;
+                   color: #cdbbe6;">
+
         <h1>Portifólio do estudante</h1>
+    
+    </header>
         <nav>
-            <ul>
-                <li>
-                    <!-- href é um dos atributos da ancora -->
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="sobre.html">Sobre</a>
-                </li>
-                <li>
-                    <a href="contato.html">Contato</a>
-                </li>
-            </ul>
+
+           <ul>
+            <li>
+                <!-- href é um dos atributos da ancora -->
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="sobre.html">Sobre</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+           
+        </ul>
+
+        
+        
+        
+
+           
         </nav>
     </header>
     <main>
