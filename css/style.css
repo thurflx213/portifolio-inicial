@@ -5,35 +5,98 @@
 }
 body{
     font-family: 'poppins', sans-serif;
-    background-color: #fdcace;
+    background: url(../img/hero.jpg) no-repeat center center/cover;
+    color: #ffffff;
+
 }
+
 header{
     display: flex;
     justify-content: space-between;
-    background: #f8004a6e;
+    background: #5c4c4c00;
     backdrop-filter: blur(10px);
     color: #ffffff;
+    font-family:initial;
     padding: 10px 15px;
     text-align: left;
+    align-content: center;
+    align-items: center;
+    
 }
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
 }
+
 a{
-    color: #442d2d;
+    color: #ffffff;
     text-decoration: none;
     padding: 10px 20px;
-
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    width: 200px;
+    height: 200px;
 }
 footer{
     justify-content: space-between;
-    background: #f8004a6e;
-    backdrop-filter: blur(10px);
+    background: #2c040407;
+    backdrop-filter: blur(3px);
     color: #ffffff;
     padding: 10px 15px;
     text-align: left;
-    border: solid 1px purple;
+    border: solid 1px rgba(22, 22, 22, 0.151);
+}
+.hero{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.322);
+    backdrop-filter: blur(1px);
+   
+}
+.hero-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.281) ;
+    backdrop-filter: blur(1px);
+
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    background-color: #2514142c;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 40px;
+}
+.direita{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.esquerda{
+    display: flex;
+    flex-direction: row-reverse;
 }
