@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #fdcace;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #f8004a6e;
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+a{
+    color: #442d2d;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
