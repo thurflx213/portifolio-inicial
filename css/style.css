@@ -28,3 +28,12 @@ a{
     padding: 10px 20px;
 
 }
+footer{
+    justify-content: space-between;
+    background: #f8004a6e;
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: left;
+    border: solid 1px purple;
+}
